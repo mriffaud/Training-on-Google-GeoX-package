@@ -54,7 +54,7 @@ obj.tbr <- DoTBRAnalysis(obj,
 head(obj.tbr)
 summary(obj.tbr)
 plot(obj.tbr)
-#Look at the outliars analysis package 'leave one out' if 3 SD remove the data points
+#Look at the outliars analysis package 'leave one out' if 3 to 5 SD remove the data points
 
 #Time based reg. ROAS Analysis
 obj.tbr.roas <- DoTBRROASAnalysis(obj,
